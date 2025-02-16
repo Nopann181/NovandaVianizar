@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Pesanan Anda</title>
+    <script>
+        function loadOrders() {
+            let orders = JSON.parse(localStorage.getItem("orders")) || [];
+            let orderList = document.getElementById("order-list");
+
+            orderList.innerHTML = ""; // Kosongkan daftar sebelum diisi ulang
+
+            if (orders.length > 0) {
+                orders.forEach((order, index) => {
+                    let li = document.createElement("li");
+                    li.textContent = order;
+                    orderList.appendChild(li);
+                });
+            } else {
+                orderList.innerHTML = "<p>Belum ada pesanan.</p>";
+            }
+        }
+
+        function clearOrders() {
+            localStorage.removeItem("orders");
+            loadOrders();
+        }
+    </script>
+</head>
+<body onload="loadOrders()">
+    <h1>Pesanan Anda</h1>
+    <ul id="order-list"></ul>
+
+    <!-- Tombol Hapus Pesanan -->
+    <button onclick="clearOrders()" class="bg-red-500 text-white px-4 py-2 rounded-md mt-4">
+        Hapus Semua Pesanan
+    </button>
+
+    <!-- Tombol Kembali -->
+    <a href="index.html" class="block mt-4 text-blue-500">Kembali ke Halaman Utama</a>
+
+   
+</body>
+</html>
