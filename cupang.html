@@ -1,0 +1,258 @@
+<section>
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <title>IKAN CUPANG</title>
+    </head>
+      <body>
+          <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+              <header>
+                <h2 class="text-xl font-bold text-white sm:text-3xl">Koleksi Ikan Cupang</h2>
+          
+                <p class="mt-4 max-w-md text-white">
+                  Silahkan Memilih Ikan Cupang Yang Ingin Anda Pesan 
+                </p>
+              </header>
+          
+           
+              <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+                <li>
+                  <a href="#" class="group block overflow-hidden">
+                    <img
+                      src="https://i.pinimg.com/736x/74/7f/1c/747f1c9556e2246c657ee954870e7d89.jpg"
+                      alt=""
+                      class="h-[450px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                    />
+          
+                    <div class="mt-6 flex flex-col items-center">
+                        <a href="#" onclick="openModal('modalBlueYellow')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+                            PESAN SEKARANG
+                        </a>
+                        <p class="mt-2 text-white text-sm font-semibold">RP. 200.000</p> 
+                    
+                        <div id="modalBlueYellow" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                            <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+                                <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+                                <p class="text-gray-700 mb-4">Anda yakin ingin memesan Ikan Cupang Blue Yellow ini?</p>
+                                <div class="flex justify-center gap-4">
+                                    <button onclick="confirmOrder('1 Ikan Cupang Blue Yellow - RP. 200.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+                                    <button onclick="closeModal('modalBlueYellow')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </a>
+                </li>
+          
+                <li>
+                  <a href="#" class="group block overflow-hidden">
+                    <img
+                      src="https://i.pinimg.com/736x/2c/cd/73/2ccd732587ca8143e67cc66ea1cee838.jpg"
+                      alt=""
+                      class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                    />
+          
+                    <div class="mt-6 flex flex-col items-center">
+                        <a href="#" onclick="openModal('modalRed')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+                            PESAN SEKARANG
+                        </a>
+                        <p class="mt-2 text-white text-sm font-semibold">RP. 150.000</p> 
+                    
+                        <div id="modalRed" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                            <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+                                <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+                                <p class="text-gray-700 mb-4">Anda yakin ingin memesan Ikan Cupang Red ini?</p>
+                                <div class="flex justify-center gap-4">
+                                    <button onclick="confirmOrder('1 Ikan Cupang Red - RP. 150.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+                                    <button onclick="closeModal('modalRed')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </a>
+                </li>
+          
+                <li>
+                  <a href="#" class="group block overflow-hidden">
+                    <img
+                      src="https://i.pinimg.com/736x/89/61/5e/89615ec1041bca668121f33f8d646a10.jpg"
+                      alt=""
+                      class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                    />
+          
+                    <div class="mt-6 flex flex-col items-center">
+                        <a href="#" onclick="openModal('modalRed')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+                            PESAN SEKARANG
+                        </a>
+                        <p class="mt-2 text-white text-sm font-semibold">RP. 150.000</p> 
+                    
+                        <div id="modalRed" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                            <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+                                <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+                                <p class="text-gray-700 mb-4">Anda yakin ingin memesan Ikan Cupang Red ini?</p>
+                                <div class="flex justify-center gap-4">
+                                    <button onclick="confirmOrder('1 Ikan Cupang Red - RP. 150.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+                                    <button onclick="closeModal('modalRed')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </a>
+                </li>
+          
+                <li>
+                  <a href="#" class="group block overflow-hidden">
+                    <img
+                      src="https://i.pinimg.com/736x/95/ca/0e/95ca0e23a9f8f86381726986fabc3f8b.jpg"
+                      alt=""
+                      class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                    />
+                    <div class="mt-6 flex flex-col items-center">
+                        <a href="#" onclick="openModal('modalBlue')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+                            PESAN SEKARANG
+                        </a>
+                        <p class="mt-2 text-white text-sm font-semibold">RP. 170.000</p> 
+                    
+                        <div id="modalBlue" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                            <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+                                <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+                                <p class="text-gray-700 mb-4">Anda yakin ingin memesan Ikan Cupang Blue ini?</p>
+                                <div class="flex justify-center gap-4">
+                                    <button onclick="confirmOrder('1 Ikan Cupang Blue - RP. 170.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+                                    <button onclick="closeModal('modalBlue')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <script>
+                        function openModal(modalId) {
+                            document.getElementById(modalId).classList.remove("hidden");
+                        }
+                    
+                        function closeModal(modalId) {
+                            document.getElementById(modalId).classList.add("hidden");
+                        }
+                    
+                        function confirmOrder(order) {
+                            let orders = JSON.parse(localStorage.getItem("orders")) || [];
+                            orders.push(order);
+                            localStorage.setItem("orders", JSON.stringify(orders));
+                    
+                            alert(order + " berhasil ditambahkan!");
+                    
+                            document.querySelectorAll(".fixed.inset-0").forEach(modal => {
+                                modal.classList.add("hidden");
+                            });
+                        }
+                    </script>
+                    
+                  
+                    
+                  </a>
+                </li>
+              </ul>
+          
+              <ol class="mt-8 flex justify-center gap-1 text-xs font-medium">
+                <li>
+                  <a
+                    href="#"
+                    class="inline-flex size-8 items-center justify-center rounded border border-gray-100"
+                  >
+                    <span class="sr-only">Prev Page</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-3"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </li>
+          
+                <li>
+                  <a href="#" class="block size-8 rounded border border-gray-100 text-center leading-8">
+                    1
+                  </a>
+                </li>
+          
+                <li class="block size-8 rounded border-black bg-black text-center leading-8 text-white">2</li>
+          
+                <li>
+                  <a href="#" class="block size-8 rounded border border-gray-100 text-center leading-8">
+                    3
+                  </a>
+                </li>
+          
+                <li>
+                  <a href="#" class="block size-8 rounded border border-gray-100 text-center leading-8">
+                    4
+                  </a>
+                </li>
+          
+                <li>
+                  <a
+                    href="#"
+                    class="inline-flex size-8 items-center justify-center rounded border border-gray-100"
+                  >
+                    <span class="sr-only">Next Page</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="size-3"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ol>
+            </div>
+          </section>
+
+          <!-- Video Background -->
+<div class="fixed top-0 left-0 w-full h-full -z-10">
+  <iframe 
+      class="w-full h-full scale-125"
+      src="https://www.youtube.com/embed/B30S0Vr9N9A?autoplay=1&mute=1&loop=1&playlist=B30S0Vr9N9A&controls=0&modestbranding=1&rel=0&showinfo=0&disablekb=1&playsinline=1&vq=hd1080"
+      frameborder="0"
+      allow="autoplay; encrypted-media; fullscreen">
+  </iframe>
+</div>
+
+
+           <!-- Tombol Back -->
+<button 
+onclick="goBack()" 
+class="fixed bottom-4 left-4 bg-teal-500 text-white py-2 px-4 rounded-full shadow-lg hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-300">
+Back
+</button>
+
+
+<script>
+function goBack() {
+  // Kembali ke halaman sebelumnya
+  window.history.back();
+}
+</script>
+
+      </body>
+      </html>
+      
+      
+      
