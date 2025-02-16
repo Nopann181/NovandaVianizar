@@ -1,0 +1,245 @@
+<section>
+  <!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>IKAN CHANNA</title>
+  </head>
+    <body>
+        
+
+      <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+        <header>
+            <h2 class="text-xl font-bold text-white sm:text-3xl">Koleksi Ikan Channa</h2>
+            <p class="mt-4 max-w-md text-white">
+                Silahkan Memilih Ikan Channa Yang Ingin Anda Pesan 
+            </p>
+        </header>
+    </div>
+    
+        
+           
+        
+            <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <li>
+                <a href="#" class="group block overflow-hidden">
+                  <img
+                    src="https://i.pinimg.com/736x/df/51/b7/df51b7511ae3048173f5902df45a7db9.jpg"
+                    alt=""
+                    class="h-[450px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  />
+                  <div class="mt-6 flex flex-col items-center">
+                    <!-- Tombol PESAN SEKARANG untuk Channa Maru -->
+                    <a href="#" onclick="openModal('modalMaru')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+                        PESAN SEKARANG
+                    </a>
+                    <p class="mt-2 text-white text-sm font-semibold">RP. 200.000</p> 
+                
+                    <!-- Modal Konfirmasi untuk Channa Maru -->
+                    <div id="modalMaru" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                        <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+                            <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+                            <p class="text-gray-700 mb-4">Anda yakin ingin memesan ikan Channa Maru ini?</p>
+                            <div class="flex justify-center gap-4">
+                                <button onclick="confirmOrder('1 Ikan Channa Maru - RP. 200.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+                                <button onclick="closeModal('modalMaru')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                </a>
+              </li>
+        
+              <li>
+                <a href="#" class="group block overflow-hidden">
+                  <img
+                    src="https://i.pinimg.com/736x/04/c6/fe/04c6fef3a90a1745d33acab09642dfa5.jpg"
+                    alt=""
+                    class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  />
+        
+                <!-- Channa Andrao -->
+<div class="mt-6 flex flex-col items-center">
+  <a href="#" onclick="openModal('modalAndrao')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+      PESAN SEKARANG
+  </a>
+  <p class="mt-2 text-white text-sm font-semibold">RP. 150.000</p> 
+
+  <div id="modalAndrao" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+      <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+          <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+          <p class="text-gray-700 mb-4">Anda yakin ingin memesan ikan Channa Andrao ini?</p>
+          <div class="flex justify-center gap-4">
+              <button onclick="confirmOrder('1 Ikan Channa Andrao - RP. 150.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+              <button onclick="closeModal('modalAndrao')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+                </a>
+              </li>
+        
+              <li>
+                <a href="#" class="group block overflow-hidden">
+                  <img
+                    src="https://i.pinimg.com/736x/55/76/19/5576196fec9b697043a7899993030978.jpg"
+                    alt=""
+                    class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  />
+        <!-- Channa Auranti -->
+<div class="mt-6 flex flex-col items-center">
+  <a href="#" onclick="openModal('modalAuranti')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+      PESAN SEKARANG
+  </a>
+  <p class="mt-2 text-white text-sm font-semibold">RP. 130.000</p> 
+
+  <div id="modalAuranti" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+      <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+          <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+          <p class="text-gray-700 mb-4">Anda yakin ingin memesan ikan Channa Auranti ini?</p>
+          <div class="flex justify-center gap-4">
+              <button onclick="confirmOrder('1 Ikan Channa Auranti - RP. 130.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+              <button onclick="closeModal('modalAuranti')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+          </div>
+      </div>
+  </div>
+</div>
+                </a>
+              </li>
+        
+              <li>
+                <a href="#" class="group block overflow-hidden">
+                  <img
+                    src="https://i.pinimg.com/736x/0b/4a/c7/0b4ac70a6e1f070ee8bd2db863a2fc82.jpg"
+                    alt=""
+                    class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
+                  />
+        <!-- Channa Yellow -->
+<div class="mt-6 flex flex-col items-center">
+  <a href="#" onclick="openModal('modalYellow')" class="px-6 py-3 bg-blue-500 text-white rounded-full shadow-md text-center">
+      PESAN SEKARANG
+  </a>
+  <p class="mt-2 text-white text-sm font-semibold">RP. 170.000</p> 
+
+  <div id="modalYellow" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+      <div class="bg-white rounded-lg p-6 shadow-lg w-80 text-center">
+          <h2 class="text-lg font-semibold mb-4">Konfirmasi Pesanan</h2>
+          <p class="text-gray-700 mb-4">Anda yakin ingin memesan ikan Channa Yellow ini?</p>
+          <div class="flex justify-center gap-4">
+              <button onclick="confirmOrder('1 Ikan Channa Yellow - RP. 170.000')" class="bg-green-500 text-white px-4 py-2 rounded-md">Ya</button>
+              <button onclick="closeModal('modalYellow')" class="bg-red-500 text-white px-4 py-2 rounded-md">Tidak</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Script -->
+<script>
+  function openModal(modalId) {
+      document.getElementById(modalId).classList.remove("hidden");
+  }
+
+  function closeModal(modalId) {
+      document.getElementById(modalId).classList.add("hidden");
+  }
+
+  function confirmOrder(order) {
+      let orders = JSON.parse(localStorage.getItem("orders")) || [];
+      orders.push(order);
+      localStorage.setItem("orders", JSON.stringify(orders));
+
+      alert(order + " berhasil ditambahkan!");
+
+      document.querySelectorAll(".fixed.inset-0").forEach(modal => {
+          modal.classList.add("hidden");
+      });
+  }
+</script>
+             
+              </li>
+            </ul>
+        
+            <ol class="mt-8 flex justify-center gap-1 text-xs font-medium">
+              <li>
+                <a
+                  href="#"
+                  class="inline-flex size-8 items-center justify-center rounded border border-gray-100"
+                >
+                  <span class="sr-only">Prev Page</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="size-3"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+        
+              <li>
+                <a href="#" class="block size-8 rounded border border-gray-100 text-center leading-8">
+                  1
+                </a>
+              </li>
+        
+              <li class="block size-8 rounded border-black bg-black text-center leading-8 text-white">2</li>
+        
+              <li>
+                <a href="#" class="block size-8 rounded border border-gray-100 text-center leading-8">
+                  3
+                </a>
+              </li>
+        
+              <li>
+                <a href="#" class="block size-8 rounded border border-gray-100 text-center leading-8">
+                  4
+                </a>
+              </li>
+
+        <!-- Video Background -->
+<div class="fixed top-0 left-0 w-full h-full -z-20 overflow-hidden">
+    <iframe 
+        class="w-full h-full scale-125"
+        src="https://www.youtube.com/embed/6QSUTjsHU6s?autoplay=1&mute=1&loop=1&playlist=6QSUTjsHU6s&controls=0&modestbranding=1&rel=0&showinfo=0&disablekb=1&playsinline=1&vq=hd1080"
+        frameborder="0"
+        allow="autoplay; encrypted-media; fullscreen">
+    </iframe>
+</div>
+
+<!-- Overlay Blur (di atas video, tapi di belakang konten utama) -->
+<div class="fixed top-0 left-0 w-full h-full -z-10 backdrop-blur-md bg-white/30"></div>
+
+
+  
+         <!-- Tombol Back -->
+<button 
+onclick="goBack()" 
+class="fixed bottom-4 left-4 bg-teal-500 text-white py-2 px-4 rounded-full shadow-lg hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-300">
+Back
+</button>
+
+
+<script>
+function goBack() {
+  // Kembali ke halaman sebelumnya
+  window.history.back();
+}
+</script>
+
+
+    </body>
+    </html>
+    
+    
+    
